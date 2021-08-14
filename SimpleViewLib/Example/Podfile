@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimpleViewLib_Tests' do
+  pod 'SimpleViewLib', :path => '../'
+  
+  
+end

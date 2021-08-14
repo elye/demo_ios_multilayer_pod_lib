@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SimpleSwiftLib_Tests' do
+  pod 'SimpleSwiftLib', :path => '../'
+  
+  
+end

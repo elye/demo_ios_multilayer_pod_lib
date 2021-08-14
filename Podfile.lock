@@ -1,0 +1,28 @@
+PODS:
+  - EasyViewLib (0.1.0):
+    - SimpleSwiftLib (= 0.1.0)
+  - SimpleSwiftLib (0.1.0)
+  - SimpleViewLib (0.1.0):
+    - SimpleSwiftLib (= 0.1.0)
+
+DEPENDENCIES:
+  - EasyViewLib (from `./EasyViewLib`)
+  - SimpleSwiftLib (from `./SimpleSwiftLib`)
+  - SimpleViewLib (from `./SimpleViewLib`)
+
+EXTERNAL SOURCES:
+  EasyViewLib:
+    :path: "./EasyViewLib"
+  SimpleSwiftLib:
+    :path: "./SimpleSwiftLib"
+  SimpleViewLib:
+    :path: "./SimpleViewLib"
+
+SPEC CHECKSUMS:
+  EasyViewLib: 690d4bde31cab58234e806509980b08cb1a4d37b
+  SimpleSwiftLib: 25c4d8e2d3e5330eb6b25f0d718064c269beb88e
+  SimpleViewLib: d8c9e94a409b75d15023dd9e176fec8d0eb36577
+
+PODFILE CHECKSUM: e080d02215f158a6d1b02d1f81161f2374e8a7ba
+
+COCOAPODS: 1.10.1

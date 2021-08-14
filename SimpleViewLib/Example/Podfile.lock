@@ -1,0 +1,16 @@
+PODS:
+  - SimpleViewLib (0.1.0)
+
+DEPENDENCIES:
+  - SimpleViewLib (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleViewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleViewLib: 583dd53488e716db70a2af4dfed76f0e2272aadc
+
+PODFILE CHECKSUM: 84b74a939d03907493377b996bc67075206c29a3
+
+COCOAPODS: 1.10.1
