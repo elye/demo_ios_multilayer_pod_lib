@@ -1,12 +1,14 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '14.0'
+
+source 'https://github.com/elye/personal_podspecs'
 
 target 'SimpleExternalLibrary' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for SimpleExternalLibrary
-  pod 'SimpleSwiftLib', :path => './SimpleSwiftLib'
-  pod 'SimpleViewLib', :path => './SimpleViewLib'
-  pod 'EasyViewLib', :path => './EasyViewLib'
+  pod 'SimpleSwiftLib', :path => './'
+  pod 'SimpleViewLib', :path => './'
+  pod 'EasyViewLib', :path => './'
 end
