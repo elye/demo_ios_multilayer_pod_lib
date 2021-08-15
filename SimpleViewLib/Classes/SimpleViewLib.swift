@@ -8,7 +8,7 @@ public struct SimpleViewLib: View {
     
     public var body: some View {
         VStack {
-            Text("This is your SimpleViewLib 2 view...")
+            Text("This is your SimpleViewLib 3 view...")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
             Text(simpleClass.printMe())

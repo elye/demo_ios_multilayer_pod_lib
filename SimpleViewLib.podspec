@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleViewLib'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A description of SimpleViewLib.'
   s.swift_version    = '5.0'
 
