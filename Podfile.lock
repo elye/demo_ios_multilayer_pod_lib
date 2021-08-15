@@ -1,28 +1,30 @@
 PODS:
   - EasyViewLib (0.1.0):
-    - SimpleSwiftLib
+    - SimpleSwiftLib (~> 0.1)
   - SimpleSwiftLib (0.1.0)
   - SimpleViewLib (0.1.0):
-    - SimpleSwiftLib
+    - SimpleSwiftLib (~> 0.1)
 
 DEPENDENCIES:
   - EasyViewLib (from `./`)
-  - SimpleSwiftLib (from `./`)
+  - SimpleSwiftLib (= 0.1.0)
   - SimpleViewLib (from `./`)
+
+SPEC REPOS:
+  https://github.com/elye/personal_podspecs:
+    - SimpleSwiftLib
 
 EXTERNAL SOURCES:
   EasyViewLib:
-    :path: "./"
-  SimpleSwiftLib:
     :path: "./"
   SimpleViewLib:
     :path: "./"
 
 SPEC CHECKSUMS:
-  EasyViewLib: fad194c1aa4a1981bdac24f16e435f74102940fa
-  SimpleSwiftLib: c053c223bcf4c6bfcd6e97d88bb86a9c70af2daf
-  SimpleViewLib: 7b2b8be99c1bd490cacdbd8bade1011b752ed709
+  EasyViewLib: 06544b337885c9fa093eb63c410aca15dda233c4
+  SimpleSwiftLib: 3191afd38247510a52f6021919c9f07f9ff1f7b8
+  SimpleViewLib: 68815a521bf5723d5766a70e941d978199eeb1c7
 
-PODFILE CHECKSUM: 37e425800d96d116a6b1800a43789bea69bb15dd
+PODFILE CHECKSUM: 6397446f71b75b497394014b1b1b023ec7e8b6dd
 
 COCOAPODS: 1.10.1

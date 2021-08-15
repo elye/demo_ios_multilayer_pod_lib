@@ -8,7 +8,7 @@ public struct EasyViewLib: View {
     
     public var body: some View {
         VStack {
-            Text("This is your EasyViewLib view...")
+            Text("This is your EasyViewLib 2 view...")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
             Text(simpleClass.printMe())

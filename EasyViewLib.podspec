@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyViewLib'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A description of EasyViewLib.'
   s.swift_version    = '5.0'
 
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.0'
 
   s.source_files = 'EasyViewLib/Classes/**/*'
-  s.dependency 'SimpleSwiftLib'
+  s.dependency 'SimpleSwiftLib', '~> 0.1'
   # s.resource_bundles = {
   #   'EasyViewLib' => ['EasyViewLib/Assets/*.png']
   # }

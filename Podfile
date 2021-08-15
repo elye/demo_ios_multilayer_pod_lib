@@ -8,7 +8,7 @@ target 'SimpleExternalLibrary' do
   use_frameworks!
 
   # Pods for SimpleExternalLibrary
-  pod 'SimpleSwiftLib', :path => './'
+  pod 'SimpleSwiftLib',  '0.1.0'
   pod 'SimpleViewLib', :path => './'
   pod 'EasyViewLib', :path => './'
 end
