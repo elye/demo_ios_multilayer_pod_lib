@@ -1,5 +1,5 @@
 public class SimpleSwiftClass {
-    public let simpleValue = "Simple One"
+    public let simpleValue = "Simple Two"
     
     public init() { }
     
