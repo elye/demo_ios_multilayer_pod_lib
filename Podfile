@@ -7,8 +7,13 @@ target 'SimpleExternalLibrary' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for SimpleExternalLibrary
-  pod 'SimpleSwiftLib',  '0.1.0'
-  pod 'SimpleViewLib', :path => './'
-  pod 'EasyViewLib', :path => './'
+  # Uncomment out the below to use local
+  # pod 'SimpleSwiftLib', :path => './'
+  # pod 'SimpleViewLib', :path => './'
+  # pod 'EasyViewLib', :path => './'
+
+  # Comment out the below to avoid using elye personal pod repo
+  pod 'SimpleSwiftLib',  '0.3.0'
+  pod 'SimpleViewLib', '0.2.0'
+  pod 'EasyViewLib', '0.3.0'
 end
